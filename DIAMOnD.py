@@ -160,7 +160,7 @@ def logchoose(n, k, gamma_ln):
     lgn1 = gamma_ln[n + 1]
     lgk1 = gamma_ln[k + 1]
     lgnk1 = gamma_ln[n - k + 1]
-    return lgn1 - [lgnk1 + lgk1]
+    return lgn1 - (lgnk1 + lgk1)
 
 
 # =============================================================================
